@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "AR controls",
+    "maps": [
+        {
+            "name": "player",
+            "id": "ab7b6a35-678c-41ea-ae37-2643a2cbe993",
+            "actions": [
+                {
+                    "name": "tap",
+                    "type": "Button",
+                    "id": "88b0e85f-bed0-42b3-8b96-20275eb5fe04",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1e8049e3-aea9-44fe-a39e-be94ba6dfdad",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bcaabb5c-1201-4d1a-95fe-a348ef306c12",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eacef69b-a1fc-4cb4-a897-f5251c73533e",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
